@@ -17,7 +17,7 @@ import {
   Zap,
 } from 'lucide-react'
 
-const heroImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/new%20man-o4YleJy2TTdx0aFWzmGQLzKdQWKR5s.png'
+const heroImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/kuazom%20hero-bcK88Zrd9RaQWZrm5u3h03t2fJ2wbl.jpg'
 const logoImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuzaom%20Clean%20red%20%20logo-S7OYuqzjQQBKAc0q2kWwrxKzPQOS31.jpg'
 const businessVideo = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Business%20video-Ip310HU6Cbkylxp8dzTCTkUdO8dvGx.mp4'
 
