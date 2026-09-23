@@ -7,21 +7,8 @@ export const metadata: Metadata = {
   description: 'Professional cloth ironing, sneaker cleaning and shoe polishing for busy people in Mississauga, Ontario.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuazomclean%20logo-Nt4CcrxQYSYpONHJFtcsFkAKGr303U.jpg',
+    apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuazomclean%20logo-Nt4CcrxQYSYpONHJFtcsFkAKGr303U.jpg',
   },
 }
 

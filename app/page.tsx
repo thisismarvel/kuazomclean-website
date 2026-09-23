@@ -5,9 +5,7 @@ import {
   ArrowRight,
   Check,
   Clock3,
-  Camera,
   Mail,
-  MapPin,
   Menu,
   Moon,
   Phone,
@@ -19,8 +17,8 @@ import {
   Zap,
 } from 'lucide-react'
 
-const heroImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Professional%20ironing%20hero%20image-gWTdtmw3yCOQb83nzCRucT0JOyaAQS.jpeg'
-const logoImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuazom%20Clean%20logo-PjO7rDotsON5wJK80mKcSyYKJWWbdK.jpg'
+const heroImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Man%20ironing%20studio-1czmbHCJIMArCOJMgL1Tg22hrGiL7y.jpeg'
+const logoImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuazomclean%20logo-Nt4CcrxQYSYpONHJFtcsFkAKGr303U.jpg'
 const businessVideo = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Business%20video-Ip310HU6Cbkylxp8dzTCTkUdO8dvGx.mp4'
 
 const services = [
@@ -35,7 +33,7 @@ const services = [
   {
     number: '02',
     icon: Sparkles,
-    title: 'Sneaker cleaning',
+    title: 'Sneakers cleaning',
     description: 'Bring your favourite pairs back to a cleaner, fresher finish.',
     detail: 'Careful cleaning for everyday sneakers and statement pairs.',
     image: '/images/service-sneakers.png',
@@ -112,14 +110,14 @@ export default function Page() {
       <main id="top">
         <section className="hero container reveal-section">
           <div className="hero-copy">
-            <p className="eyebrow"><span className="eyebrow-line" /> TIME BACK, CLOTHES SORTED</p>
+            <p className="eyebrow"><span className="eyebrow-line" /> TIME BACK, CLOTHES IRONED</p>
             <h1><span className="typing-headline" aria-live="polite">{headlineText}</span><br /><em>At Its Best</em></h1>
             <p className="hero-text">You have better things to do than spend your evening ironing, scrubbing sneakers or polishing shoes. Leave the finishing touches to Kuazom Clean.</p>
             <div className="hero-actions">
               <a className="button button-red" href="#book">Book a service <ArrowRight aria-hidden="true" /></a>
               <a className="text-link" href="#services">Explore services <ArrowRight aria-hidden="true" /></a>
             </div>
-            <div className="trust-row"><span><Check aria-hidden="true" /> Careful, professional service</span><span><Check aria-hidden="true" /> Mississauga based</span></div>
+            <div className="trust-row"><span><Check aria-hidden="true" /> Careful, professional service</span><span><Check aria-hidden="true" /> Canada based</span></div>
           </div>
           <div className="hero-visual">
             <div className="hero-image-wrap">
@@ -138,12 +136,12 @@ export default function Page() {
 
         <section className="split-section" id="how-it-works"><div className="split-video" aria-hidden="true"><video src={businessVideo} autoPlay muted loop playsInline preload="metadata" /></div><div className="split-overlay" aria-hidden="true" /><div className="container split-grid"><div className="split-copy"><p className="eyebrow">THE EASY PART</p><h2>Your wardrobe,<br /><em>without the work.</em></h2><p>Kuazom Clean keeps the process simple. Tell us what needs attention, choose a time that works for you, and get back to the parts of your day that matter.</p><div className="steps"><div><span>1</span><p><strong>Tell us what you need</strong><br />A quick message is all it takes to get started.</p></div><div><span>2</span><p><strong>We take care of the details</strong><br />Your clothes and shoes receive thoughtful, professional care.</p></div><div><span>3</span><p><strong>Enjoy the finished result</strong><br />Step out looking polished, with one less thing to think about.</p></div></div><a className="button button-dark" href="#book">Get started <ArrowRight aria-hidden="true" /></a></div></div></section>
 
-        <section className="section container why-section reveal-section" id="why-kuazom"><div className="section-heading"><div><p className="eyebrow">WHY IT FEELS DIFFERENT</p><h2>Care that respects<br /><em>your time.</em></h2></div><p className="section-intro">Premium does not have to mean complicated. It means dependable attention, a thoughtful finish and a service that fits around your life.</p></div><div className="benefit-grid"><div><ShieldCheck aria-hidden="true" /><h3>Handled with care</h3><p>Professional service for the clothes and shoes you rely on every day.</p></div><div><Clock3 aria-hidden="true" /><h3>Built for busy people</h3><p>Convenient support for professionals, families and full calendars.</p></div><div><MapPin aria-hidden="true" /><h3>Local to Mississauga</h3><p>A home-service company rooted in the community we serve.</p></div></div></section>
+        <section className="section container why-section reveal-section" id="why-kuazom"><div className="section-heading"><div><p className="eyebrow">WHY IT FEELS DIFFERENT</p><h2>Care that respects<br /><em>your time.</em></h2></div><p className="section-intro">Premium does not have to mean complicated. It means dependable attention, a thoughtful finish and a service that fits around your life.</p></div><div className="benefit-grid"><div><ShieldCheck aria-hidden="true" /><h3>Handled with care</h3><p>Professional service for the clothes and shoes you rely on every day.</p></div><div><Clock3 aria-hidden="true" /><h3>Built for busy people</h3><p>Convenient support for professionals, families and people with full calendars.</p></div></div></section>
 
         <section className="booking-section" id="book"><div className="container booking-grid"><div><p className="eyebrow">READY WHEN YOU ARE</p><h2>Make your next<br /><em>busy day lighter.</em></h2><p>Send a quick note with what you need cleaned, pressed or polished. We will help you take it from there.</p><div className="contact-list"><a href="tel:+14385051448"><Phone aria-hidden="true" /> +1 (438) 505-1448</a><a href="mailto:support@kuazomclean.ca"><Mail aria-hidden="true" /> support@kuazomclean.ca</a></div></div><div className="booking-card"><div className="booking-card-top"><span>QUICK BOOKING</span><Sparkles aria-hidden="true" /></div><h3>Start with a message.</h3><p>Tell us which service you need and the best way to reach you.</p><a className="button button-red full-button" href="mailto:support@kuazomclean.ca?subject=Service%20booking%20request">Email Kuazom Clean <ArrowRight aria-hidden="true" /></a><a className="whatsapp-link" href="https://wa.me/14385051448">Or message us on WhatsApp <ArrowRight aria-hidden="true" /></a></div></div></section>
       </main>
 
-      <footer className="footer" id="contact"><div className="container footer-top"><div><a href="#top" className="brand footer-brand"><img src={logoImage} alt="Kuazom Clean" className="brand-mark" /><span className="brand-name">Kuazom<span>Clean</span></span></a><p>Cloth ironing and shoe cleaning at its best.</p></div><div className="footer-address"><span>VISIT OR WRITE</span><p>120 Acorn Place<br />Mississauga, Ontario, Canada</p></div><div className="footer-address"><span>CONNECT</span><a href="mailto:support@kuazomclean.ca">support@kuazomclean.ca</a><a href="tel:+14385051448">+1 (438) 505-1448</a></div></div><div className="container footer-bottom"><span>© 2026 KuazomClean. Designed by Bainaray</span><span>Made for a more polished day.</span><a href="https://instagram.com" aria-label="Kuazom Clean on Instagram"><Camera aria-hidden="true" /></a></div></footer>
+      <footer className="footer" id="contact"><div className="container footer-top"><div><a href="#top" className="brand footer-brand"><img src={logoImage} alt="Kuazom Clean" className="brand-mark" /><span className="brand-name">Kuazom<span>Clean</span></span></a><p>Cloth ironing and shoe cleaning at its best.</p></div><div className="footer-address"><span>VISIT OR WRITE</span><p>Canada</p></div><div className="footer-address"><span>CONNECT</span><a href="mailto:support@kuazomclean.ca">support@kuazomclean.ca</a><a href="tel:+14385051448">+1 (438) 505-1448</a></div></div><div className="container footer-bottom"><span>© 2026 KuazomClean. Designed by Bainaray</span><span>Made for a more polished day.</span></div></footer>
     </div>
   )
 }
