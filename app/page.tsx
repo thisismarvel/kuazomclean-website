@@ -17,8 +17,8 @@ import {
   Zap,
 } from 'lucide-react'
 
-const heroImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Man%20ironing%20studio-1czmbHCJIMArCOJMgL1Tg22hrGiL7y.jpeg'
-const logoImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuazomclean%20logo-Nt4CcrxQYSYpONHJFtcsFkAKGr303U.jpg'
+const heroImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/new%20man-o4YleJy2TTdx0aFWzmGQLzKdQWKR5s.png'
+const logoImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuzaom%20Clean%20red%20%20logo-S7OYuqzjQQBKAc0q2kWwrxKzPQOS31.jpg'
 const businessVideo = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Business%20video-Ip310HU6Cbkylxp8dzTCTkUdO8dvGx.mp4'
 
 const services = [
@@ -32,14 +32,6 @@ const services = [
   },
   {
     number: '02',
-    icon: Sparkles,
-    title: 'Sneakers cleaning',
-    description: 'Bring your favourite pairs back to a cleaner, fresher finish.',
-    detail: 'Careful cleaning for everyday sneakers and statement pairs.',
-    image: '/images/service-sneakers.png',
-  },
-  {
-    number: '03',
     icon: Zap,
     title: 'Shoe polishing',
     description: 'Oxford and loafer care that helps every step look considered.',
@@ -54,7 +46,7 @@ export default function Page() {
   const [headlineText, setHeadlineText] = useState('Cloth Ironing')
 
   useEffect(() => {
-    const headlines = ['Cloth Ironing', 'Sneakers Cleaning', 'Shoe Polishing']
+    const headlines = ['Cloth Ironing', 'Shoe Polishing']
     let headlineIndex = 0
     let characterIndex = headlines[0].length
     let deleting = true
@@ -112,12 +104,12 @@ export default function Page() {
           <div className="hero-copy">
             <p className="eyebrow"><span className="eyebrow-line" /> TIME BACK, CLOTHES IRONED</p>
             <h1><span className="typing-headline" aria-live="polite">{headlineText}</span><br /><em>At Its Best</em></h1>
-            <p className="hero-text">You have better things to do than spend your evening ironing, scrubbing sneakers or polishing shoes. Leave the finishing touches to Kuazom Clean.</p>
+            <p className="hero-text">You have better things to do than spend your evening ironing or polishing shoes. Leave the finishing touches to Kuazom Clean.</p>
             <div className="hero-actions">
               <a className="button button-red" href="#book">Book a service <ArrowRight aria-hidden="true" /></a>
               <a className="text-link" href="#services">Explore services <ArrowRight aria-hidden="true" /></a>
             </div>
-            <div className="trust-row"><span><Check aria-hidden="true" /> Careful, professional service</span><span><Check aria-hidden="true" /> Canada based</span></div>
+            <div className="trust-row"><span className="trust-highlight"><Check aria-hidden="true" /> Careful, professional service</span><span className="trust-highlight"><Check aria-hidden="true" /> Pickup and Delivery in Ontario and Alberta</span></div>
           </div>
           <div className="hero-visual">
             <div className="hero-image-wrap">
@@ -138,10 +130,10 @@ export default function Page() {
 
         <section className="section container why-section reveal-section" id="why-kuazom"><div className="section-heading"><div><p className="eyebrow">WHY IT FEELS DIFFERENT</p><h2>Care that respects<br /><em>your time.</em></h2></div><p className="section-intro">Premium does not have to mean complicated. It means dependable attention, a thoughtful finish and a service that fits around your life.</p></div><div className="benefit-grid"><div><ShieldCheck aria-hidden="true" /><h3>Handled with care</h3><p>Professional service for the clothes and shoes you rely on every day.</p></div><div><Clock3 aria-hidden="true" /><h3>Built for busy people</h3><p>Convenient support for professionals, families and people with full calendars.</p></div></div></section>
 
-        <section className="booking-section" id="book"><div className="container booking-grid"><div><p className="eyebrow">READY WHEN YOU ARE</p><h2>Make your next<br /><em>busy day lighter.</em></h2><p>Send a quick note with what you need cleaned, pressed or polished. We will help you take it from there.</p><div className="contact-list"><a href="tel:+14385051448"><Phone aria-hidden="true" /> +1 (438) 505-1448</a><a href="mailto:support@kuazomclean.ca"><Mail aria-hidden="true" /> support@kuazomclean.ca</a></div></div><div className="booking-card"><div className="booking-card-top"><span>QUICK BOOKING</span><Sparkles aria-hidden="true" /></div><h3>Start with a message.</h3><p>Tell us which service you need and the best way to reach you.</p><a className="button button-red full-button" href="mailto:support@kuazomclean.ca?subject=Service%20booking%20request">Email Kuazom Clean <ArrowRight aria-hidden="true" /></a><a className="whatsapp-link" href="https://wa.me/14385051448">Or message us on WhatsApp <ArrowRight aria-hidden="true" /></a></div></div></section>
+        <section className="booking-section" id="book"><div className="container booking-grid"><div><p className="eyebrow">READY WHEN YOU ARE</p><h2>Make your next<br /><em>busy day lighter.</em></h2><p>Send a quick note with what you need cleaned, pressed or polished. We will help you take it from there.</p><div className="contact-list"><a href="tel:+14385051448"><Phone aria-hidden="true" /> +1 (438) 505-1448 (Ontario)</a><a href="tel:+15878899099"><Phone aria-hidden="true" /> +1 (587) 889-9099 (Alberta)</a><a href="mailto:support@kuazomclean.ca"><Mail aria-hidden="true" /> support@kuazomclean.ca</a></div></div><div className="booking-card"><div className="booking-card-top"><span>QUICK BOOKING</span><Sparkles aria-hidden="true" /></div><h3>Start with a message.</h3><p>Tell us which service you need and the best way to reach you.</p><a className="button button-red full-button" href="mailto:support@kuazomclean.ca?subject=Service%20booking%20request">Email Kuazom Clean <ArrowRight aria-hidden="true" /></a><a className="whatsapp-link" href="https://wa.me/14385051448">Or message us on WhatsApp <ArrowRight aria-hidden="true" /></a></div></div></section>
       </main>
 
-      <footer className="footer" id="contact"><div className="container footer-top"><div><a href="#top" className="brand footer-brand"><img src={logoImage} alt="Kuazom Clean" className="brand-mark" /><span className="brand-name">Kuazom<span>Clean</span></span></a><p>Cloth ironing and shoe cleaning at its best.</p></div><div className="footer-address"><span>VISIT OR WRITE</span><p>Canada</p></div><div className="footer-address"><span>CONNECT</span><a href="mailto:support@kuazomclean.ca">support@kuazomclean.ca</a><a href="tel:+14385051448">+1 (438) 505-1448</a></div></div><div className="container footer-bottom"><span>© 2026 KuazomClean. Designed by Bainaray</span><span>Made for a more polished day.</span></div></footer>
+      <footer className="footer" id="contact"><div className="container footer-top"><div><a href="#top" className="brand footer-brand"><img src={logoImage} alt="Kuazom Clean" className="brand-mark" /><span className="brand-name">Kuazom<span>Clean</span></span></a><p>Cloth ironing and shoe cleaning at its best.</p></div><div className="footer-address"><span>LOCATION</span><p>Serving Ontario and Alberta in Canada</p></div><div className="footer-address"><span>CONNECT</span><a href="mailto:support@kuazomclean.ca">support@kuazomclean.ca</a><a href="tel:+14385051448">+1 (438) 505-1448</a><a href="tel:+15878899099">+1 (587) 889-9099</a></div></div><div className="container footer-bottom"><span>© 2026 KuazomClean. Designed by Bainaray</span><span>Made for a more polished day.</span></div></footer>
     </div>
   )
 }
