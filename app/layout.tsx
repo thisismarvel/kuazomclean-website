@@ -5,7 +5,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Kuazom Clean | Cloth ironing and shoe cleaning',
   description: 'Professional cloth ironing and shoe polishing serving Ontario and Alberta in Canada.',
-  generator: 'v0.app',
   icons: {
     icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuzaom%20Clean%20red%20%20logo-S7OYuqzjQQBKAc0q2kWwrxKzPQOS31.jpg',
     apple: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kuzaom%20Clean%20red%20%20logo-S7OYuqzjQQBKAc0q2kWwrxKzPQOS31.jpg',
